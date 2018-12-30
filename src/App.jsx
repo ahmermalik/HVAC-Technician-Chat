@@ -19,23 +19,7 @@ const styles = {
   }
 };
 
-// class NavButton extends Component {
-//   render() {
-//     return (
-//       <Button
-//         className="mui--appbar-height"
-//         color="inherit"
-//         aria-label="Menu"
-//         style={{ textAlign: "center" }}
-//         onClick={() => {
-//           this.props.changeComponent(this.props.componentName);
-//         }}
-//       >
-//         {this.props.title}
-//       </Button>
-//     );
-//   }
-// }
+
 
 class App extends Component {
   constructor(props) {
