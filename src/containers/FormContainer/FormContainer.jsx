@@ -55,7 +55,7 @@ class FormContainer extends Component {
   }
 
   handleSetMessage = (e) => {
-    const genericMessage ="This is Jeff with EMS Home Services attempting to schedule your A/C service appointment. Please call us at 512-804-2500. This number does not accept texts.";
+    const genericMessage ="This is Adam attempting to schedule your A/C service appointment. Please call or text us at 123-245-2525.";
     this.setState({
       body: genericMessage 
     });
